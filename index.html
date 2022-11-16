@@ -1,122 +1,282 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-<head>
+    <title>Tasmiah dev Portfolio</title>
+  </head>
+<!--Navbar-->
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#navbar">
+          <img
+            class="logo"
+            src="assets/images/budda.jpg"
+            width="90"
+            height="90"
+            alt="logo"
+          />
+          <h1>Tasmiah Begum</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>My Portfolio</title>
-</head>
-
-<body>
-  <header>
-    <section class="left header">
-      <img src="">
-      <h1><b>Tasmiah Begum</b></h1>
-      <p>Welcome to the blog of Tasmiah</p>
-    </section>
-
-    <section class="right header">
-
-      <nav>
-        <a href="#ScottishFold">Scottish Fold</a>
-
-        <a href="#Ragdolls">Ragdolls</a>
-
-        <a href="#Contact">Contact</a>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link font-weight-bold" href="#about"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#skills">My Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#work">My work</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#contact">Contact</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </nav>
-    </section>
-  </header>
-
-  <main>
-    <img src="images/02-portfolio-2.jpg" alt="profile-picture" class="mainimg">
-    <section class="scottish" id="scottish">
-      <h2 id="ScottishFold"> Scottish Fold </h2>
-      <p>
-        Chanel is a Scottish fold. This breed makes such loving companions, they are so sweet and are well known for
-        their 'buddha' pose and sleeping on their backs! Take a look at Chanel demonstrating the poses...
-      <div class="row">
-        <div class="column">
-          <img src="images/budda.jpg" alt="budda pose">
-        </div>
-        <div class="column">
-          <img src="images/chanel2.jpg" alt="chanel">
-        </div>
-      </div>
-      </p>
-
-    </section>
-    <section class="Ragdolls" id="Ragdolls">
-      <h3 id="Ragdolls">Ragdolls</h3>
-      <p> Ragdolls are a sweet and docile breed. Four of my cats are ragdolls and i chose this breed because of the
-        various patterns they come in as well as for their fluffy luxurious coats and big beautiful blue eyes. Did you
-        know Ragdolls can play fetch like dogs?! My cats will carry their favourite toys around and place them by my
-        feet when its fetch time. </p>
-    </section>
-    <aside>
-      <div class="container">
-        <div class="row">
-          <div class="column2">
-            <img src="images/budda2.jpg" alt="Venice" class="smimg">
-            <div class="middle">
-              <div class="text">Venice</div>
+    </header>
+<!--End Nav-->
+<!--Jumbotron-->
+    <main>
+      <section class="hero">
+        <div class="jumbotron">
+          <div class="row">
+            <div class="imgContainer col- 5 mt- 5 ml-5 mr-5">
+              <img src="assets/images/cyra.jpg width="300" height="300"
+              class="profileimg" alt="profile-picture">
+            </div>
+            <div class="section2 col-8 ml-3" id="section2">
+              <h3 id="About">About me</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore laborum accusamus, iusto, autem placeat harum ab
+                voluptate similique ea nisi dolor cupiditate dolorum porro
+                soluta commodi quo vel aliquid earum?
+              </p>
+              <hr class="my-4">
+              <p>
+                Keywords: Medical Biochemistry, Data analysis, Front-end, web
+                development, cats.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="column2">
-            <img src="images/cyra.jpg" alt="Cyra" class="smimg">
-            <div class="middle">
-              <p class="text">Cyra</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="column2">
-            <img src="images/aria.jpg" alt="Aria" class="smimg">
-            <div class="middle">
-              <div class="text">Aria</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="column2">
-            <img src="images/chanel2.jpg" alt="Hazel" class="smimg">
-            <div class="middle">
-              <div class="text">Hazel</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
+    </main>
+<!--End Jumbotron-->
 
-    </aside>
+<!--Cards-->
+<section class="container-fluid cardSection">
+  <h4 class="sectionHeader" id="work">My Work</h4>
+  <div class="row">
 
+<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+  <div class="card">
+    <img src="assets/images/cyra.jpg" class= "first-card-img" alt="Medical-Biochemistry">
+    <div class="card-body">
+      <h5 class="card-title">Using R and R Studio</h5>
+      <p> My first approach to using programming languages for data analysis </p>
+    </div>
+  </div>
+</div>
 
+<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+  <div class="card">
+    <img src="assets/images/cyra.jpg" class="first-card-img" alt="horiseon">
+    <div class="card-body">
+      <h5 class="card-title">Horiseon</h5>
+      <p>Applying what i learnt to alter code in HTML and CSS to apply semantic HTML elements.</p>
+      <a  href="https://tasmiah22.github.io/Horiseon/" class="btn btn-primary position">View</a>
+    </div>
+  </div>
+</div>
 
+<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+  <div class="card">
+    <img src="assets/images/cyra.jpg" class="first-card-img" alt="Responsive CSS">
+    <div class="card-body">
+      <h5 class="card-title">Porfolio</h5>
+      <p>Produced a porfolio from the responsive CSS lessons</p>
+      <a href="https://tasmiah22.github.io/My_Portfolio/" class="btn btn-primary position">View</a>
+    </div>
+  </div>
+</div>
+<!--Cards End-->
+<!--Rows-->
+<section class="container-fluid">
+  <h6 class="sectionHeading" id="skills">My Skills</h6>
 
-
-  </main>
-
-  <footer id="Contact">
-    <section class="contact" id="contact">
-      <ul>
-        <li>Birmingham, United Kingdom</li>
-        <li>Phone number: 01234567890</li>
-        <li>Email:ilovecats@gmail.com</li>
+  <div class="row pt-4">
+    <div class="sideimg"></div>
+    <div class="imgContainer col-lg-4 col-md-4 col-sm-12">
+      <img src="assets/images/cyra.jpg" alt="HTML-LOGO">
+    </div>
+    <div class="text col-lg-8 col-md-8 col-sm-12">
+      <h2>HTML</h2>
+      <ul class="list text-body">
+        <li>Structure documents with presentable and clear images, videos and audio</li>
+        <li>Boost accessibility by the use of semantic elements</li>
+        <li>Build forms and present datasets clearly</li>
       </ul>
-    </section>
-    <p>&COPY; Tasmiah Begum, 2022</p>
-  </footer>
+    </div>
+  </div>
 
+  <div class="row pt-4">
+    <div class="sideimg"></div>
+    <div class="imgContainer col-lg-4 col-md-4 col-sm-12">
+      <img src="assets/images/cyra.jpg" alt="CSS-LOGO">
+    </div>
+    <div class="text col-lg-8 col-md-8 col-sm-12">
+      <h2>CSS</h2>
+      <ul class="list text-body">
+        <li>Design webpages</li>
+        <li>placeholder</li>
+        <li>placeholder</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="row pt-4">
+    <div class="sideimg"></div>
+    <div class="imgContainer col-lg-4 col-md-4 col-sm-12">
+      <img src="assets/images/cyra.jpg" alt="Bootstrap-LOGO">
+    </div>
+    <div class="text col-lg-8 col-md-8 col-sm-12">
+      <h2>Bootstrap</h2>
+      <ul class="list text-body">
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque aspernatur dignissimos odit voluptatum, deserunt quidem? Ab fugiat ducimus vel est dignissimos, temporibus eaque incidunt consequatur voluptas nobis, amet eum.</li>
+        <li>placeholder</li>
+        <li>placeholder</li>
+      </ul>
+    </div>
+  </div>
 
-</body>
+  <div class="row pt-4">
+    <div class="sideimg"></div>
+    <div class="imgContainer col-lg-4 col-md-4 col-sm-12">
+      <img src="assets/images/cyra.jpg" alt="JS-LOGO">
+    </div>
+    <div class="text col-lg-8 col-md-8 col-sm-12">
+      <h2>JavaScript</h2>
+      <ul class="list text-body">
+        <li>Design webpages</li>
+        <li>placeholder</li>
+        <li>placeholder</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+  <section class="formSection pt-4" id="signup">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 text-center mx-auto">
+                <h2 class="mb-5">Get in touch!</h2>
+                <form class="form-inline d-flex">
+                    <input type="email" 
+                    class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" 
+                    id="inputEmail" placeholder="Email address">
+                    <input type="Message" class="form-control flex-fill mr-0 mr-sm-2 mb-7 mb-sm-0" id="inputMessage" placeholder="Message">
+                    <button class="btn btn-primary mx-auto">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <section class="contact" id="contact">
+        <div class="container-fluid">
+          <div class="row">
+           <ul>
+            <li>Birmingham, United Kingdom</li>
+            <li>Phone number: 01234567890</li>
+            <li>Email:ilovecats@gmail.com</li>
+           </ul>
+         </div>
+       </div> 
+      </section>
+
+    <footer>
+    <div class="container mx-auto text-center">
+      <p>&COPY; Tasmiah Begum, 2022</p>
+    </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

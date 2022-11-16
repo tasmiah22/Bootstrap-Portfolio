@@ -5,6 +5,8 @@
 
  I have added a README file to give a brief description of the project.
 
+ In the <head> i pasted in a link that implements bootstrap.
+
  I linked a stylesheet to the index.html for css designs.
 
  I included a working <nav> that links to the relative sections of the page including to the contact info in the footer.
